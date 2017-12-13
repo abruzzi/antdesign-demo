@@ -1,1 +1,21 @@
-/*@import '~antd/dist/antd.css';*/
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.panel {
+  border-radius: 0;
+  box-shadow: 0 0 2px #ccc;
+  height: 94vh;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.container .ant-row > div {
+  background: transparent;
+  border: 0;
+}
+
+.gutter-box {
+  padding: 10px;
+}
